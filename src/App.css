@@ -1,0 +1,554 @@
+ .App {
+  text-align: center;
+}
+
+.col{
+  display: flex;
+  /* text-align: center; */
+  
+  
+}
+
+.row{
+  margin: 2rem;
+  font-family:'Mukta', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  margin-right: 10rem;
+  position: absolute;
+  /* text-align: center; */
+  
+}
+
+
+.fline{
+  margin: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique;
+   font-display: inline block;
+   font-weight: 300;
+   text-align: center;
+}
+
+.btn{
+  background-color: rgb(181, 218, 218);
+  border-radius: 1rem;
+  position: absolute;
+  font-weight: bolder;
+  height: 5rem;
+  font-size: large;
+  cursor: pointer;
+  /* margin-left: 20rem; */
+
+}
+
+
+.brand{
+  -webkit-text-fill-color:rgb(212, 88, 88);
+}
+
+
+
+
+
+.web2 .weba2{
+  margin-top: 15rem;
+  margin-left: 45rem;
+  height: 20rem;
+  
+  
+}
+
+
+.our{
+  margin-top: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+ 
+
+ .card{
+  margin-left: 1.5rem;
+  width: 30rem;
+  height: 32rem;
+  margin-top: 2rem;
+  cursor: pointer;
+ }
+
+ .col2{
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+ }
+
+ 
+
+
+ .us{
+  
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+ }
+
+
+
+
+
+@media all and (max-width :1024px){
+
+  .row{
+    margin: 1rem;
+    margin-right: 5rem;
+  }
+
+  .btn-sm{
+
+    width: 20%;
+    background-color: brown;
+    color:aqua;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+}
+
+@media all and (max-width :1024px)
+{
+
+
+  .web2 .weba2{
+    margin-top: 15rem;
+    margin-left: 30rem;
+    height: 12rem;
+
+}
+
+.btn-sm{
+
+  width: 20%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+}
+
+
+
+@media all and (min-width :1024px){
+
+
+  .web2 .weba2{
+    margin-top: 15rem;
+    margin-left: 40rem;
+    height: 12rem;
+
+}
+
+.btn-sm{
+
+  width: 20%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+}
+
+@media all and (max-width : 800px){
+
+  .web2 .weba2{
+    margin-top: 18rem;
+    margin-left: 25rem;
+    height: 9rem;
+
+}
+
+
+.btn-sm{
+
+  width: 20%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+}
+
+@media all and (max-width:610px){
+
+  .web2 .weba2{
+    margin-top: 20rem;
+    margin-left: 22rem;
+    height: 6rem;
+
+}
+
+.btn{
+  background-color: rgb(181, 218, 218);
+  border-radius: 1rem;
+  position: absolute;
+  font-weight: bold;
+  height: 2rem;
+  font-size: large;
+  cursor: pointer;
+
+}
+
+
+.btn-sm{
+
+  width: 20%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+}
+
+@media all and (max-width:600px){
+  .fline{
+    /* height: 1rem; */
+    display: inline;
+  }
+
+  .web2 .weba2{
+    
+    margin-top: 20rem;
+    margin-left: 22rem;
+    height: 6rem;
+  }
+
+  
+.btn{
+  background-color: rgb(181, 218, 218);
+  border-radius: 1rem;
+  position: absolute;
+  font-weight: bold;
+  height: 2rem;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 1rem;
+
+}
+
+
+.btn-sm{
+
+  width: 20%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+}
+
+@media all and (max-width:500px){
+
+  
+  .web2 .weba2{
+    
+    margin-top: 20rem;
+    margin-left: 20rem;
+    height: 6rem;
+  }
+  
+.btn-sm{
+
+  width: 20%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+  .row{
+    margin-right: 0.5rem;
+  }
+}
+
+@media all and (max-width:485px){
+
+  
+  .web2 .weba2{
+    
+    margin-top: 21rem;
+    margin-left: 18rem;
+    height: 6rem;
+  }
+  
+.btn-sm{
+
+  width: 30%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+}
+
+
+@media all and (max-width:440px){
+
+  
+  .web2 .weba2{
+    
+    margin-top: 21rem;
+    margin-left: 16rem;
+    height: 6rem;
+  }
+  
+.btn-sm{
+
+  width: 30%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+}
+
+
+@media all and (max-width:428px){
+
+  
+  .web2 .weba2{
+    
+    margin-top: 21rem;
+    margin-left: 16rem;
+    height: 6rem;
+  }
+
+  .btn-sm{
+
+    width: 30%;
+    background-color: brown;
+    color:aqua;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+  .row{
+    margin-right: 0.2rem;
+  }
+}
+
+
+
+
+
+
+@media all and (max-width:414px){
+
+  .web2 .weba2{
+    
+    margin-top: 23rem;
+    margin-left: 14rem;
+    height: 6rem;
+  }
+
+  .btn-sm{
+
+    width: 30%;
+    background-color: brown;
+    color:aqua;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+}
+
+@media all and (max-width:378px){
+
+  
+  .web2 .weba2{
+    
+    margin-top: 23rem;
+    margin-left: 14rem;
+     height: 5rem; 
+  }
+  
+  
+.btn{
+  background-color: rgb(181, 218, 218);
+  border-radius: 1rem;
+  position: absolute;
+  font-weight: bold;
+  height: 1.5rem;
+  font-size: large;
+  cursor: pointer;
+  
+
+}
+
+.btn-sm{
+
+  width: 30%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+.row{
+  margin-right: 0.1rem;
+}
+}
+
+@media all and (max-width:360px){
+  
+
+  .web2 .weba2{
+    
+    margin-top: 25rem;
+    margin-left: 14rem;
+    height: 5rem;
+  }
+
+  .btn-sm{
+
+    width: 40%;
+    background-color: brown;
+    color:aqua;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+}
+
+
+@media all and (max-width:320px){
+  
+
+  .web2 .weba2{
+    
+    margin-top: 30rem;
+    margin-left: 9rem;
+    height: 5rem;
+  }
+  
+.btn-sm{
+
+  width: 30%;
+  background-color: brown;
+  color:aqua;
+  padding:14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+.row h1{
+  width: 18rem;
+}
+
+
+
+}
+
+@media all and (max-width:280px){
+  
+
+  .web2 .weba2{
+    
+    margin-top: 32rem;
+    margin-left: 10rem;
+    height: 4rem;
+  }
+
+  .btn-sm{
+
+    width: 30%;
+    background-color: brown;
+    color:aqua;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+}
+
+.btn-sm{
+
+    width: 10rem;
+    background-color: black;
+    color:aqua;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+.intro{
+  
+  border-radius:5px;
+  background-color: rgb(203, 186, 247);
+   /* padding:4.5rem  */
+}
+
+.form-control{
+  width: 100%;
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border:0.2rem solid green;
+  border-radius: 2rem;
+  box-sizing: border-box;
+}
